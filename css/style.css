@@ -1,0 +1,160 @@
+/*reset*/
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  h1,h2,h3,h4,h5,h6, p{
+    margin: 0;
+  }
+  .link {
+    text-decoration: none;
+  }
+/*style*/
+.container{
+    background-color: #F5F5F5;
+    max-width: 1280px;
+    padding-right: 165px;
+    padding-left: 118px;
+    margin: 0 auto;
+}
+.say{
+    max-width: 1280px;
+    background-color: #FFFFFF;
+    padding-right: 165px;
+    padding-left: 118px;
+    margin: 0 auto;
+}
+button{
+    cursor: pointer;
+}
+body{
+    color: #49464F;
+    font-family: 'Roboto';
+}
+/*how-it*/
+.work{
+    padding-top: 68px;
+    padding-bottom: 73px;
+    padding-right: 165px;
+    padding-left: 118px;
+}
+.h2-how{
+    font-weight: 400;
+    font-size: 67px;
+    line-height: 1.4;
+    margin-bottom: 71px;
+}
+.how-it .item+.item{
+    margin-top: 24px;
+}
+.how-it{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+}
+.start{
+    width: 189px;
+    height: 62px;
+    margin-top: 51px;
+    background-color: #7140EB;
+    border-radius: 999px;
+    border: none;
+    color: #FFFFFF;
+}
+/*members*/
+/* members */
+
+.members {
+    padding-top: 68px;
+}
+.members-title-h2{
+    font-size: 66px;
+}
+.members-ul{
+    display: flex;
+    gap: 134px;
+    margin-top: 98px;
+}
+.members-list-item-1{
+    width: 246px;
+}
+.members-list-item-2{
+    width: 256px;
+}
+.members-list-item-3{
+    width: 227px;
+}
+.members-p{
+    font-size: 28px;
+}
+.p-end{
+    font-size: 17px;
+    line-height: 1.4;
+}
+.members-list-li-1  .members-p{
+    margin-bottom: 19px;
+}
+.members-list-li-3  .members-p{
+    margin-bottom: 19px;
+}
+.members-list-li-2  .members-p{
+    margin-bottom: 19px;   
+}
+/*know more*/
+.know{
+    padding-top: 96px;
+    padding-bottom: 96px;
+    background-color: #F5F5F7;
+}
+
+.know-cont{
+    padding-right: 160px;
+    display: flex;
+    gap: 210px;
+}
+
+.know-title{
+    margin-top: 100px;
+    margin-bottom: 53px;
+    width: 235px;
+    font-size: 67px;
+    color: #2E2C34;
+    line-height: 1;
+}
+
+.more-title{
+    display: block;
+}
+
+.know-btn{
+    width: 180px;
+    height: 40px;
+    border-radius: 999px;
+    border: 1px solid #2E2C34;
+}
+
+.know-ul{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.know-li{
+    font-size: 21px;
+    line-height: 1.2;
+    position: relative;
+    padding-left: 29px;
+    color: #2E2C34;
+}
+
+.know-li::before {
+    width: 18px;
+    height: 17px;
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-45%);
+    background-image: url(../img/svg-plus.svg);
+}
